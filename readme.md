@@ -7,7 +7,7 @@ Docker images based on https://github.com/iron-io/dockers/ using Alpine Linux.
 
 # Updating Docker Image
 
-- `docker build -t imagename .`
+- `docker build --no-cache -t imagename .`
 - `docker images`
 - Copy ID of image
 - `docker tag ID terrarum/imagename:latest`
